@@ -34,19 +34,18 @@ Rank reflects strategic layer coverage as well as score; the score is not a stri
 | agentic-financial-consequence | 4 | 4 | 4 | 4 | 5 | 5 | 5 | 86 | Select |
 | agent-trust-probe | 4 | 4 | 4 | 3 | 5 | 5 | 5 | 82 | Select |
 | canton-proofpack | 4 | 4 | 4 | 4 | 4 | 4 | 5 | 82 | Select |
-| temporal-liquidity-risk | 4 | 3 | 3 | 4 | 4 | 4 | 5 | 74 | Select, limited scope |
+| temporal-liquidity-risk | 4 | 3 | 3 | 4 | 4 | 4 | 5 | 75 | Select, limited scope |
 | control-probe | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 80 | Exclude: overlaps selected assurance/control examples |
 | canton-sync-debt-observatory | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 60 | Exclude: inspected as a Daml observability example; less direct fit than the selected Canton references |
 | haircut | 4 | 3 | 4 | 4 | 3 | 4 | 4 | 74 | Exclude: narrower than selected collateral and liquidity examples |
 | tokenize-stack | 4 | 4 | 4 | 4 | 3 | 4 | 4 | 78 | Exclude: overlaps collateral and settlement coverage |
-| warrant | 3 | 4 | 4 | 3 | 4 | 4 | 4 | 72 | Exclude: adjacent agent constraint mechanism; selected references cover authority and consequence |
+| warrant | 3 | 4 | 4 | 3 | 4 | 4 | 4 | 73 | Exclude: adjacent agent constraint mechanism; selected references cover authority and consequence |
 | correlation-governor | 4 | 3 | 4 | 4 | 4 | 4 | 4 | 76 | Exclude: useful aggregate-agent stress proof but narrower than selected lifecycle examples |
-| canton-observer | 3 | 3 | 4 | 3 | 4 | 3 | 3 | 64 | Exclude: bounded-view auditor overlaps scoped Canton evidence |
-| liquid-proofpack | 3 | 4 | 4 | 3 | 4 | 3 | 3 | 68 | Exclude: relevant but ledger-specific beside Canton ProofPack |
+| canton-observer | 3 | 3 | 4 | 3 | 4 | 3 | 3 | 65 | Exclude: bounded-view auditor overlaps scoped Canton evidence |
+| liquid-proofpack | 3 | 4 | 4 | 3 | 4 | 3 | 3 | 69 | Exclude: relevant but ledger-specific beside Canton ProofPack |
 | agentic-economy-observatory | — | — | — | — | — | — | — | — | Exclude: public repo had no README/description sufficient to validate relevance or implementation |
 | agentic-finops-ledger | — | — | — | — | — | — | — | — | Exclude: private; cannot be represented as a public reference |
 
 ## Maturity and accuracy
 
 The selected links were public when checked. Artifact descriptions above are based on repository contents; they do not establish production deployment, customer use, institutional adoption, or integration with this architecture. Review each source repository's limitations and current state before relying on it.
-
