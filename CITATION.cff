@@ -1,0 +1,3 @@
+# Institutional Digital Finance Architecture
+
+Reference architecture for institutional controls across programmable financial systems. The documents connect authority, economic decisioning, execution, settlement, financial state, liquidity, reconciliation, and assurance. Referenced implementations are independent and are not technically integrated by this repository.
